@@ -17,6 +17,22 @@ public:
         std::cout << "I work at... " << CompanyName << std::endl;
         std::cout << "I am... " << Age << " years old!" << std::endl; 
     }
+
+    void setName(string name){
+        UserName = name;
+    }
+    string getName(){
+        return UserName;
+    }
+    string getCompanyName(){
+        return CompanyName;
+    }
+    void setCompanyName(string comname){
+        CompanyName = comname;
+    }
+    void setAge(int newAge){
+        Age = newAge;
+    }
 private:
     int idHex;
     string UserName;
@@ -29,11 +45,21 @@ int main()
     string name = "Hellp World";
     std::cout << name << std::endl;
 
+    // Testing employee class
     Employee emp1;
-    emp1.UserName = "Gregory Salmon";
-    emp1.CompanyName = "Bolts and Parts Incorporations";
-    emp1.Age = 22;
+
+    // emp1.Age = 22;
+    emp1.setAge(22);
+
+    // emp1.CompanyName = "XXX Incorporations";
+    emp1.setCompanyName("Tusken Innernational");
+
+    // emp1.UserName = "Gregory Allen";
+    emp1.setName("Garry Allen");
+    
     emp1.IntroduceYourself();
+
+    // Testing Constructors
     Employee emp2 = Employee("Howard Chuck Mcgill","Google Jobs",31);
     emp2.IntroduceYourself();
     
