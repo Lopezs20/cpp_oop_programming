@@ -13,9 +13,9 @@ public:
     }
 
     void IntroduceYourself(){
-        std::cout << "Hey my name is... " << UserName << std::endl;
-        std::cout << "I work at... " << CompanyName << std::endl;
-        std::cout << "I am... " << Age << " years old!" << std::endl; 
+        std::cout << "Hey my name is... " << getName() << std::endl;
+        std::cout << "I work at... " << getCompanyName() << std::endl;
+        std::cout << "I am... " << getAge() << " years old!" << std::endl; 
     }
 
     void setName(string name){
@@ -33,6 +33,9 @@ public:
     void setAge(int newAge){
         Age = newAge;
     }
+    int getAge(){
+        return Age;
+    }
 private:
     int idHex;
     string UserName;
@@ -42,7 +45,7 @@ private:
 
 int main()
 {
-    string name = "Hellp World";
+    string name = "Hello World";
     std::cout << name << std::endl;
 
     // Testing employee class
@@ -56,7 +59,7 @@ int main()
 
     // emp1.UserName = "Gregory Allen";
     emp1.setName("Garry Allen");
-    
+
     emp1.IntroduceYourself();
 
     // Testing Constructors
