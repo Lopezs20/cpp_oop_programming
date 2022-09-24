@@ -1,6 +1,6 @@
 #include <iostream>
 using std::string;
-
+using std::cout;
 class Employee{
 public:
     Employee(){}
@@ -9,7 +9,6 @@ public:
         UserName = uname;
         CompanyName = comname;
         Age = uage;
-
     }
 
     void IntroduceYourself(){
@@ -31,7 +30,10 @@ public:
         CompanyName = comname;
     }
     void setAge(int newAge){
-        Age = newAge;
+        if(newAge < 18){
+            cout << "You must be greater than 18 to work here..!" << std::endl;
+        }
+        else Age = newAge;
     }
     int getAge(){
         return Age;
