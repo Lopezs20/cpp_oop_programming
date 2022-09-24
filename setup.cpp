@@ -3,10 +3,6 @@ using std::string;
 
 class Employee{
 public:
-    string UserName;
-    string CompanyName;
-    int Age;
-
     Employee(){}
     
     Employee(string uname, string comname, int uage){
@@ -23,6 +19,9 @@ public:
     }
 private:
     int idHex;
+    string UserName;
+    string CompanyName;
+    int Age;
 };
 
 int main()
