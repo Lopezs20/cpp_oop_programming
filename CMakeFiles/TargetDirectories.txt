@@ -1,0 +1,3 @@
+C:/Users/Black/development/cpp/o_object_oriented_programming/oop_practice_cpp/CMakeFiles/setup.dir
+C:/Users/Black/development/cpp/o_object_oriented_programming/oop_practice_cpp/CMakeFiles/ALL_BUILD.dir
+C:/Users/Black/development/cpp/o_object_oriented_programming/oop_practice_cpp/CMakeFiles/ZERO_CHECK.dir

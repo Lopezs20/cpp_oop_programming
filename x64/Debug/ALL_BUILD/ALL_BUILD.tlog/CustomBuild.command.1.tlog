@@ -1,0 +1,10 @@
+^C:\USERS\BLACK\DEVELOPMENT\CPP\O_OBJECT_ORIENTED_PROGRAMMING\OOP_PRACTICE_CPP\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Black/development/cpp/o_object_oriented_programming/oop_practice_cpp -BC:/Users/Black/development/cpp/o_object_oriented_programming/oop_practice_cpp --check-stamp-file C:/Users/Black/development/cpp/o_object_oriented_programming/oop_practice_cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Black\development\cpp\o_object_oriented_programming\oop_practice_cpp\setup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Black\development\cpp\o_object_oriented_programming\oop_practice_cpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{95F46396-F1DF-3335-A754-8A78A1D821EC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
